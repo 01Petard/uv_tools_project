@@ -114,3 +114,8 @@ Pipfile.lock
 .pre-commit-config.yaml
 
 report
+
+.idea
+.workbuddy
+.openidea
+.claude
