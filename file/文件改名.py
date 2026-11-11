@@ -37,6 +37,6 @@ def rename_files_in_directory(directory: str, start: int = 196):
 
 if __name__ == "__main__":
     # 修改这里，传入你要处理的目录路径
-    target_dir = "/Users/hzx/Downloads/1"
+    target_dir = "/Users/hzx/project_self/archived_self/uv_tools_project/yandex/images_20261111-1626"
     # 从指定的数字后面开始，比如传的是195，则从196开始命名
     rename_files_in_directory(target_dir, start=195)

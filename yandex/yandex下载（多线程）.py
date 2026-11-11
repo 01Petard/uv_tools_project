@@ -10,7 +10,7 @@ import multiprocessing
 # ===== 配置 =====
 BASE_URL = "https://yande.re/post?page={page}&tags=oni-noboru"
 START_PAGE = 1
-END_PAGE = 10
+END_PAGE = 2
 MAX_THREADS = 3
 time_suffix = datetime.now().strftime("%Y%m%d-%H%M")
 SAVE_DIR = f"./images_{time_suffix}"  # 图片保存目录
